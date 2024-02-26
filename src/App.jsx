@@ -10,7 +10,7 @@ import changeScreen from "./assets/sound/changeScreen.wav";
 function App() {
   const [gameState, setGameState] = useState("start");
   const [themeColor, setThemeColor] = useState("#5865f2");
-  const [gameDifficulty, setGameDifficulty] = useState("hard");
+  const [gameDifficulty, setGameDifficulty] = useState("easy");
   const [isGameOverModal, setIsGameOverModal] = useState(false);
 
   const [playGameOver] = useSound(gameOver);
